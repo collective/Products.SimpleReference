@@ -1,8 +1,8 @@
 Changelog
 =========
 
-0.1dev (unreleased)
--------------------
+0.1a1 2011-11-07
+----------------
 
 - factored out Reference Content Types from Products.SimpleAttachment branch
   to this product. Took over the functionality developed in
