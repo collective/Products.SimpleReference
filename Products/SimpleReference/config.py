@@ -5,5 +5,6 @@ PROJECTNAME = 'Products.SimpleReference'
 
 ADD_PERMISSIONS = {
     # -*- extra stuff goes here -*-
-    'SimpleReference': 'Products.SimpleReference: Add SimpleReference',
+    'ImageReference': 'Products.SimpleReference: Add ImageReference',
+    'FileReference': 'Products.SimpleReference: Add FileReference',
 }

@@ -1,2 +1,2 @@
 # -*- extra stuff goes here -*-
-from simplereference import ISimpleReference
+from simplereference import IImageReference, IFileReference

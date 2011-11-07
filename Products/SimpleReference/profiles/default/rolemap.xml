@@ -1,8 +1,11 @@
 <?xml version="1.0"?>
 <rolemap>
   <permissions>
-    <!-- -*- extra stuff goes here -*- -->
-    <permission name="Products.SimpleReference: Add SimpleReference" acquire="False">
+    <permission name="Products.SimpleReference: Add ImageReference" acquire="True">
+      <role name="Manager" />
+      <role name="Contributor" />
+    </permission>
+    <permission name="Products.SimpleReference: Add FileReference" acquire="True">
       <role name="Manager" />
       <role name="Contributor" />
     </permission>

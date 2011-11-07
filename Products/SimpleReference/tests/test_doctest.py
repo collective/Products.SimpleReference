@@ -1,17 +1,15 @@
-import unittest
-import doctest
-
-#from zope.testing import doctestunit
-#from zope.component import testing, eventtesting
-
-from Testing import ZopeTestCase as ztc
-
 from Products.SimpleReference.tests import base
+from Testing import ZopeTestCase as ztc
+import doctest
+import unittest
 
 
 def test_suite():
 
-    filenames = ['content/simplereference.txt', ]
+    filenames = [
+        'content/file.txt',
+        'content/image.txt',
+    ]
     tests = []
 
     for filename in filenames:

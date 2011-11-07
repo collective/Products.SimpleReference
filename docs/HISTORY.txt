@@ -4,4 +4,11 @@ Changelog
 0.1dev (unreleased)
 -------------------
 
+- factored out Reference Content Types from Products.SimpleAttachment branch
+  to this product. Took over the functionality developed in
+  Products.SimpleAttachment/branches/referencable_content_support now you
+  can install/uninstall this feature independently from SA.
+  And you can upgrade your SA to 4.x blob support which you should do
+  right now, if you haven't yet!
 - Initial release
+  [petschki]
