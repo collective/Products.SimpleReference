@@ -66,8 +66,7 @@
                  type="checkbox"
                  value="on"
                  tabindex=""
-                 tal:attributes="tabindex tabindex/next;
-                                 name string:${fieldName}_visible;
+                 tal:attributes="name string:${fieldName}_visible;
                                  onClick string:toggle_boolean('${fieldName}', '${fieldName}_hidden');; return true;
                                  id fieldName;
                                  checked python:value;"
@@ -117,7 +116,6 @@
                            name="imageTitle"
                            size="30"
                            tabindex=""
-                           tal:attributes="tabindex tabindex/next;"
                            value=""
                            />
                 </div>
@@ -133,8 +131,7 @@
                            name="imageFile"
                            size="30"
                            tabindex=""
-                           tal:attributes="tabindex tabindex/next;
-                                           value request/imageFile/filename | nothing"
+                           tal:attributes="value request/imageFile/filename | nothing"
                            />
                 </div>
 
@@ -145,7 +142,6 @@
                            name="form.button.UploadImage"
                            value="Upload"
                            i18n:attributes="value"
-                           tal:attributes="tabindex tabindex/next;"
                            />
                     <div class="formHelp" i18n:translate="help_widget_imagesmanager_upload">
                         Once an image is uploaded, you can refer to it in
