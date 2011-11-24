@@ -4,7 +4,7 @@
                  localized_time nocall:context/@@plone/toLocalizedTime">
 
     <tal:block condition="nocall:files">
-    
+
     <table class="listing"
            id="file-listing-table">
         <thead>
@@ -28,7 +28,7 @@
                             file_id file/getId"
                 tal:attributes="id string:folder-contents-item-${file/getId};
                                 class python:'draggable %s' % (repeat['file'].odd() and 'even' or 'odd')">
-                                
+
                 <td>
                     <input type="checkbox"
                            class="noborder"
@@ -39,7 +39,8 @@
                            />
                 </td>
                 <td>
-                    <img tal:attributes="src python:file.getIcon().replace('plone/','');
+                    <img tal:on-error="nothing"
+                         tal:attributes="src python:file.getIcon().replace('plone/','');
                                          alt file_title" />
                 </td>
                 <td>
@@ -107,7 +108,7 @@
                i18n:attributes="value"
                />
     </div>
-    
+
     </tal:block>
-    
+
 </div>
