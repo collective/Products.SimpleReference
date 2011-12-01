@@ -1,13 +1,18 @@
 Changelog
 =========
 
-0.1a2 2011-12-01
-----------------
+0.1a3 - 2011-12-01
+------------------
+
+- fix description
+
+0.1a2 - 2011-12-01
+------------------
 
 - fixed referencing of contents
 
-0.1a1 2011-11-07
-----------------
+0.1a1 - 2011-11-07
+------------------
 
 - factored out Reference Content Types from Products.SimpleAttachment branch
   to this product. Took over the functionality developed in

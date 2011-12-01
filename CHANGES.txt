@@ -1,8 +1,0 @@
-Changelog
-=========
-
-0.1 unreleased
-----------------
-
-- Created recipe with ZopeSkel
-  [petschki]
