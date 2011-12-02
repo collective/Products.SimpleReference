@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
-version = '0.1a3'
+version = '0.1a5'
 
 long_description = (
     'Detailed Documentation\n'
@@ -34,7 +34,7 @@ tests_require = ['zope.testing']
 
 setup(name='Products.SimpleReference',
       version=version,
-      description="SimpleReference Content Type for RichDocument to enable Image/File referecing support",
+      description="SimpleReference Content Type for RichDocument to enable Image/File referencing support",
       long_description=long_description,
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
