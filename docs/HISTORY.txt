@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.1 - 2012-08-22
+----------------
+
+- fix view permissions of reference_popup
+
 0.1b[1-2] - 2011-12-07
 ----------------------
 
