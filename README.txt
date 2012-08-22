@@ -20,7 +20,7 @@ and ImageReferences (or FileAttachments, FileReferences) in one place.
 
 This Plone Addon was developed by `Kombinat Media Gestalter GmbH`_.
 
-.. image:: http://kombinat.at/kombinat-logo.gif
+.. image:: http://kombinat.at/logo.png
    :target: http://kombinat.at
 
 

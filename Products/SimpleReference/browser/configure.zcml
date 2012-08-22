@@ -6,7 +6,7 @@
 
     <browser:page
         name="sa_reference_popup"
-        permission="cmf.ListFolderContents"
+        permission="zope2.AccessContentsInformation"
         class=".reference.Reference"
         template="templates/reference_popup.pt"
         for="*"
