@@ -1,11 +1,3 @@
-Products.SimpleReference
-========================
-
-
-
-.. contents::
-
-
 Introduction
 ============
 
